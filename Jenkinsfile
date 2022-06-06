@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                build 'SeleniumMaven'
+                echo 'Testing..'
             }
         }
         stage('Deploy') {
